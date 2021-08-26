@@ -28,7 +28,7 @@ function load() {
 
 function autoFillText() {
     let heroText = document.querySelector('.hero .desc .text');
-    let text = "one's happiness is one's own to define and decide looking down on someone's decision or making it for them is nothing but selfishness";
+    let text = "現実の世界で役割を演じようとしているただのばか";
     let index = 0;
     let frame = 57.5;
     setTimeout(() => {
