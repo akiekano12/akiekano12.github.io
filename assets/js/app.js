@@ -28,7 +28,7 @@ function load() {
 
 function autoFillText() {
     let heroText = document.querySelector('.hero .desc .text');
-    let text = "現実の世界で役割を演じようとしているただのばか";
+    let text = "現実の世界で役割を演じようとしているただのば";
     let index = 0;
     let frame = 57.5;
     setTimeout(() => {
