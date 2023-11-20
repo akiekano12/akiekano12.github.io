@@ -1,7 +1,7 @@
 ---
 import ThemeToggle from "../ThemeToggle.astro";
 import Search from "../Search.astro";
-import { menuLinks } from "@/site-config";
+import { menuLinks, siteConfig } from "@/site-config";
 
 const url = new URL(Astro.request.url);
 ---
@@ -36,7 +36,7 @@ const url = new URL(Astro.request.url);
 			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
 			aria-current={url.pathname === "/" ? "page" : false}
 		>
-			<span class="text-xl font-bold sm:text-2xl">realm.</span>
+			<span class="text-xl font-bold sm:text-2xl">{siteConfig.title}</span>
 		</a>
 		<nav
 			id="navigation-menu"
