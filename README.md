@@ -1,3 +1,0 @@
-# realm
-
-My personal realm.
